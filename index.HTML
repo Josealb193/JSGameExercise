@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="gameStyle.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Match a Shape</title>
+    </head>
+    <body class="background">
+        
+        <div class="container">
+            <div class="gameZone">
+                <div class="matchSquares">
+                    <div class="imageSquare">
+                        <img id="image1" src="Images/question_icon.png" alt="Matching Image">
+                    </div>
+                    <div class="imageSquare">
+                        <img id="image2" src="Images/question_icon.png" alt="Matching Image">
+                    </div>
+                    <div class="imageSquare">
+                        <img id="image3" src="Images/question_icon.png" alt="Matching Image">
+                    </div>
+                    <div class="imageSquare">
+                        <img id="image4" src="Images/question_icon.png" alt="Matching Image">
+                    </div>
+                    <div class="imageSquare">
+                        <img id="image5" src="Images/question_icon.png" alt="Matching Image">
+                    </div>
+                    <div class="imageSquare">
+                        <img id="image6" src="Images/question_icon.png" alt="Matching Image">
+                    </div>
+                    <div class="imageSquare">
+                        <img id="image7" src="Images/question_icon.png" alt="Matching Image">
+                    </div>
+                    <div class="imageSquare">
+                        <img id="image8" src="Images/question_icon.png" alt="Matching Image">
+                    </div>
+                    <div class="imageSquare">
+                        <img id="image9" src="Images/question_icon.png" alt="Matching Image">
+                    </div>
+                    <div class="imageSquare">
+                        <img id="image10" src="Images/question_icon.png" alt="Matching Image">
+                    </div>
+                    <div class="imageSquare">
+                        <img id="image11" src="Images/question_icon.png" alt="Matching Image">
+                    </div>
+                    <div class="imageSquare">
+                        <img id="image12" src="Images/question_icon.png" alt="Matching Image">
+                    </div>
+                    <div class="imageSquare">
+                        <img id="image13" src="Images/question_icon.png" alt="Matching Image">
+                    </div>
+                    <div class="imageSquare">
+                        <img id="image14" src="Images/question_icon.png" alt="Matching Image">
+                    </div>
+                    <div class="imageSquare">
+                        <img id="image15" src="Images/question_icon.png" alt="Matching Image">
+                    </div>
+                    <div class="imageSquare">
+                        <img id="image16" src="Images/question_icon.png" alt="Matching Image">
+                    </div>
+                </div>
+            </div>
+            <div class="configZone">
+                <div class="presentation">
+                    <p>Bienvenido, a continuación, podrás experimentar uno de los juegos propuestos durante el bootcamp de programación brindado por TalentoTech Oriente, en donde se practicarán habilidades en HTML, CSS y JavaScript.</p>
+                    <p>¿Cómo jugar? Es bastante sencillo: Presiona en el botón "INICIAR" una vez estés listo. Debes presionar en cada recuadro de la izquierda buscando establecer parejas ¡Intenta batir un nuevo record!</p>
+                </div>
+                <button class="startStyle" id="startButton" role="button">INICIAR</button>
+                <div class="timeStyle" id="timeIndicator">
+                    <p style="margin: 0.5em;">Tiempo</p>
+                    <label id="minutes">00</label>:<label id="seconds">00</label>
+                </div>
+                <div class="progressStyle">
+                    <div class="progressStyleInd" id="doneMatches">
+                        <p>Parejas completadas:</p>
+                        <p id="matchesCounter">0</p>
+                    </div>
+                    <div class="progressStyleInd" id="restingMatches">
+                        <p>Parejas faltantes</p>
+                        <p id="pendingMatches">8</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>Developed by Jose A. Pacheco. All rights reserved.</p>
+        </footer>
+        <script src="gameLogic.js"></script>
+    </body>
+</html>
